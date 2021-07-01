@@ -100,7 +100,7 @@ public class brf_BatchApexErrorEvents {
             if(Test.isRunningTest()) {                
                 JobInfo jobInfo = new JobInfo();
                 jobInfo.Id = '707S000000nKE4fIAG';
-                jobInfo.ApexClassName = brf_BatchableErrorTestJob.class.getName();
+                //jobInfo.ApexClassName = brf_BatchableErrorTestJob.class.getName();
                 jobInfo.CreatedDate = System.today();
                 jobsById.put(jobInfo.Id, jobInfo);
             }
